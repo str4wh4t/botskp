@@ -42,6 +42,28 @@ const pegawai = [
 			'diskusi mengenai pekerjaan agar ditemukan solusi terhadap permasalahan yang ada',
 		],
 	},
+	{
+		nama : 'Miftahul Arif',
+		nip : 'H.7.198704152010061001',
+		password : '78914051',
+		kegiatan: [
+			'Monitoring surat - surat masuk',
+			'Memverifikasi Usulan Kegiatan pada aplikasi Pendapatan',
+			'Memproses pengajuan Virtual Account',
+			'Rapat koordinasi terkait permasalahan yang ada',
+			'Memeriksa draft surat keluar',
+			'Menganalisis usulan tarif minimal layanan',
+			'Monitoring dan evaluasi Pengembangan Aplikasi Pendukung Usaha Komersial',
+			'Istirahat sejenak melepas penat',
+			'Mengelola draft usulan SK Rektor tentang Kegiatan',
+			'Pendampingan penyusunan Tarif minimal layanan pada Unit Usaha',
+			'Diskusi santai membahas permasalahan yang ada',
+			'Monitoring dan evaluasi Tarif minimal layanan pada Unit Usaha',
+			'Menyusun SKP Catatan Kinerja harian ',
+			'Monitoring dan Verifikasi Kinerja harian staf',
+			'Mengisi waktu santai sambil musikan',
+		],
+	},
 ];
 
 let gen_nums = [];
