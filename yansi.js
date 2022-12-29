@@ -79,7 +79,7 @@ const pegawai = [
 			'menyusun dan mencetak pernyataan pimpinan PTN',
 			'merevisi dan menyerahkan draft pernyataan pimpinan PTN',
 			'menyusun tabel pendukung pengajuan pembukaan periode',
-			'merevisi dan menyerahkan draft pernyataan pimpinan PTN'
+			'merevisi dan menyerahkan draft pernyataan pimpinan PTN',
 			'menyusun surat nota dinas dan memo',
 			'menyusun undangan rakor',
 			'mencetak amplop undangan rakor',
