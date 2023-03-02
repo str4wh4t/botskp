@@ -370,9 +370,9 @@ async function main() {
     let delayInMillisecondsPeg = 20000; //1 second
 
     // check if sunday or saturday
-    const date = new Date();
-    const day = date.getDay();
-    if (day === 0 || day === 6) {
+    const theDate = new Date();
+    const theDay = theDate.getDay();
+    if (theDay === 0 || theDay === 6) {
         process.stdout.write("today is weekend, no need to run this script");
         return;
     }
