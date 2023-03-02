@@ -23,50 +23,36 @@ const jam_akhir = [
 ];
 
 const pegawai = [
-{
-    nama : 'yayuk erna setyawati',
-    nip : '197805282014092003',
-    password : '87915082',
-    kegiatan: [
-      'Mempersiapkan jadwal kegiatan Kabiro',
-      'memproses surat masuk ke Kabiro',
-      'Memproses surat keluar dari Bagian Humas',
-      'Memproses surat keluar dari Unit Ubikar',
-      'Memproses paraf dan tanda tangan SPJ dari Bidang III ke Kabiro',
-      'Memproses paraf dan tanda tangan SPJ dari Bidang IV ke Kabiro',
-      'Menproses undangan Rapat Bidang Sistem dan Informasi',
-      'Memproses surat keluar dari Bagian Sistem dan Informasi',
-      'Memproses tandantangan draf dokumen MOU kerjasama dari Bidang IV ke Kabiro',
-      'Memproses Undangan Rapat dari Bidang Humas',
-      'Menyiapkan berkas untuk kegiatan rapat Kabiro',
-      'Menyiapkan Ruang Sidang untuk Kegiatan Rapat',
-      'Mencatat Jadwal pemakaian Ruang Sidang BKB',
-      'Notulasi Rapat',
-      'Menyiapkan Konsumsi untuk Kegiatan Rapat',
-      'Input Surat Surat Masuk',
-      'Input Surat Surat Keluar',
-      'Scan Surat Surat Masuk',
-      'Scan Surat Surat Keluar',
-      'Mendistribusikan Surat Surat Masuk sesuai Disposisi Kabiro',
-      'Menggandakan Surat Surat Masuk Sesuai Disposisi Kabiro',
-      'Menyiapkan Kegiatan Apel Pagi',
-      'Proses tandatangan Dokumen SPM Bidang III Ke Kabiro',
-      'Proses Tandatangan Dokumen SPM Bidang IV ke Kabiro',
-      'Melayani tamu ',
-    ],
-},
-{
-    nama : 'wahyudi',
-    nip : '198001141999031001',
-    password : '08911041',
-    kegiatan: [
-      	'membaca, mendisposisi dan mengerjakan disposisi surat',
-      	'koordinasi internal dengan Kabiro',
-      	'koordinasi internal dengan supervisor tpip',
-	'koordinasi internal dengan supervisor tipl',
-	'koordinasi internal dengan supervisor jpk',
-    ],
-},
+    {
+        nama: "yayuk erna setyawati",
+        nip: "197805282014092003",
+        password: "87915082",
+        kegiatan: [
+            "memproses surat masuk,surat keluar, undangan ke Kabiro",
+            "Memproses paraf dan tanda tangan SPJ dari Bidang III ke Kabiro",
+            "Menyiapkan berkas untuk kegiatan rapat Kabiro",
+            "Menyiapkan Ruang Sidang untuk Kegiatan Rapat",
+            "Mencatat Jadwal pemakaian Ruang Sidang BKB",
+            "Input Surat Surat Masuk, dan surat keluar",
+            "Scan Surat Surat Masuk dan surat surat keluar",
+            "Mendistribusikan Surat Surat Masuk sesuai Disposisi Kabiro",
+        ],
+    },
+    {
+        nama: "wahyudi",
+        nip: "198001141999031001",
+        password: "08911041",
+        kegiatan: [
+            "membaca, mendisposisi dan mengerjakan disposisi surat",
+            "koordinasi internal dengan Kabiro",
+            "koordinasi internal dengan supervisor tpip",
+            "koordinasi internal dengan supervisor tipl",
+            "koordinasi internal dengan supervisor jpk",
+            "membuat kajian dan analisis terhadap surat yang masuk",
+            "membuat laporan kegiatan harian",
+            "koordinasi tentang pengembangan sistem informasi di BKB",
+        ],
+    },
     {
         nama: "idris",
         nip: "H.7.198906052010061001",
@@ -337,31 +323,31 @@ const pegawai = [
             "Diskusi santai membahas permasalahan yang ada",
         ],
     },
-	{
-		nama : 'Desy Purnamawati',
-		nip : '197812152002122002',
-		password : '87912151',
-		kegiatan: [
-			'Mendisposisi surat - surat masuk',
-       			'Menjawab dan/atau membuat kajian surat - surat masuk',
-            		'Mereview surat-surat yang akan didistribusikan keluar BP UBIKAR',
-            		'Memproses penebusan Bahan Bakar Minyak (BBM) melalui BNI Direct',
-            		'Menatausahakan softfile penebusan BBM Unit Usaha SPBU Undip',
-            		'Memverifikasi Setoran Rekapitulasi Setoran (SRS) pada aplikasi Pendapatan',
-            		'Rapat koordinasi internal terkait permasalahan yang urgent penyelesaian',
-			'Memproses pengusulan Draft Surat Keputusan Rektor melalui Aplikasi HTLP',
-            		'Koordinasi bersama eksternal terkait permasalahan yang urgent penyelesaian',
-            		'Istirahat sejenak, melepas beban pikiran pekerjaan',
-            		'Memproses pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi RSA UK',
- 			'Menatausahakan dokumen soft file pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi RSA UK',
-			'Memproses pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi BNI Direct',
-			'Menatausahakan dokumen soft file pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi BNI Direct',
-			'Koordinasi persiapan paparan materi/bahan rapat pimpinan',
-			'Melaksanakan tugas kedinasan lainnya yang diinstruksikan pimpinan',
-			'Menyusun SKP Catatan Kinerja Harian',
-			'Monitoring dan Verifikasi Kinerja harian staf',
-		],
-	},
+    {
+        nama: "Desy Purnamawati",
+        nip: "197812152002122002",
+        password: "87912151",
+        kegiatan: [
+            "Mendisposisi surat - surat masuk",
+            "Menjawab dan/atau membuat kajian surat - surat masuk",
+            "Mereview surat-surat yang akan didistribusikan keluar BP UBIKAR",
+            "Memproses penebusan Bahan Bakar Minyak (BBM) melalui BNI Direct",
+            "Menatausahakan softfile penebusan BBM Unit Usaha SPBU Undip",
+            "Memverifikasi Setoran Rekapitulasi Setoran (SRS) pada aplikasi Pendapatan",
+            "Rapat koordinasi internal terkait permasalahan yang urgent penyelesaian",
+            "Memproses pengusulan Draft Surat Keputusan Rektor melalui Aplikasi HTLP",
+            "Koordinasi bersama eksternal terkait permasalahan yang urgent penyelesaian",
+            "Istirahat sejenak, melepas beban pikiran pekerjaan",
+            "Memproses pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi RSA UK",
+            "Menatausahakan dokumen soft file pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi RSA UK",
+            "Memproses pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi BNI Direct",
+            "Menatausahakan dokumen soft file pencairan hasil pendapatan Usaha Komersial UPKAB pada aplikasi BNI Direct",
+            "Koordinasi persiapan paparan materi/bahan rapat pimpinan",
+            "Melaksanakan tugas kedinasan lainnya yang diinstruksikan pimpinan",
+            "Menyusun SKP Catatan Kinerja Harian",
+            "Monitoring dan Verifikasi Kinerja harian staf",
+        ],
+    },
 ];
 
 let gen_nums = [];
@@ -382,6 +368,14 @@ function get_rand(array) {
 
 async function main() {
     let delayInMillisecondsPeg = 20000; //1 second
+
+    // check if sunday or saturday
+    const date = new Date();
+    const day = date.getDay();
+    if (day === 0 || day === 6) {
+        process.stdout.write("today is weekend, no need to run this script");
+        return;
+    }
 
     pegawai.forEach(async (peg, i_peg) => {
         setTimeout(async () => {
